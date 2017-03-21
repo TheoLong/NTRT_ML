@@ -1,0 +1,32 @@
+Project(btietz)
+
+subdirs(
+	Corde
+    boxFeet
+    caterpillar
+    #RBTests - Depricated as of v1.1
+    sphereFeet
+    TetraSpineStatic
+    hardwareLearning
+    hardwareSineWaves
+    handTunedSineWaves
+    muscleNPTests
+    tetraCollisions
+    muscleNPHills
+    TCContact
+    ShortOC_CPG 
+    ShortOC_sine
+    timestepTest
+    GATests
+    multiTerrain
+    TetraSpine_multiTerrain/
+    TC_goal
+    JSONTests
+    TC_online
+    multiTerrain_OC/
+    TS_goal/
+    TC_Tension/
+    OC_Tension/
+    TC_nn_Tension/
+    superBall/
+    )

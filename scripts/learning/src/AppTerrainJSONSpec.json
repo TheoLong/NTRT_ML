@@ -1,0 +1,70 @@
+{
+    "filePrefix"   : "monteOut",
+    "fileSuffix"   : ".json",
+    "resourcePath" : "../../../resources/src/",
+    "lowerPath"    : "bmirletz/AppTerrainJSON/",
+    "executable" : "./../../../build/dev/btietz/JSONTests/AppTerrainJSON",
+    "terrain" : [[[0, 1, 0, 0, 3000]]],
+    "learningParams": 
+    {
+        "trialLength" : 30000,
+        "numTrials" : 30,
+        "numGenerations" : 1,
+        "deterministic": 0,
+        "nodeVals" :
+        {
+            "learning" : true,
+            "startingControllers" : 0,
+            "monteCarlo" : true,
+            "numberOfStates" : 0,
+            "numberOfOutputs" : 5,
+            "numberOfInstances" : 1,
+            "populationSize" : 30,
+            "useAverage" : true,
+            "numberToMutate" : 15,
+            "numberOfChildren" : 5,
+            "mutationChance" : 0.5,
+            "mutationDev" : 0.03,
+            "paramMax" : 1.0,
+            "paramMin": 0.0,
+            "childMutationChance" : 0.9
+        },
+        "edgeVals" :
+        {
+            "learning" : true,
+            "startingControllers" : 0,
+            "monteCarlo" : true,
+            "numberOfStates" : 0,
+            "numberOfOutputs" : 2,
+            "numberOfInstances" : 660,
+            "populationSize" : 30,
+            "useAverage" : true,
+            "numberToMutate" : 15,
+            "numberOfChildren" : 5,
+            "mutationChance" : 0.5,
+            "mutationDev" : 0.03,
+            "paramMax" : 1.0,
+            "paramMin": 0.0,
+            "childMutationChance" : 0.9
+        },
+        "feedbackVals" :
+        {
+            "learning" : true,
+            "startingControllers" : 0,
+            "monteCarlo" : true,
+            "numberOfStates" : 2,
+            "numberOfOutputs" : 3,
+            "numberHidden" : 4,
+            "numberOfInstances" : 1,
+            "populationSize" : 30,
+            "useAverage" : true,
+            "numberToMutate" : 15,
+            "numberOfChildren" : 5,
+            "mutationChance" : 0.5,
+            "mutationDev" : 0.03,
+            "paramMax" : 1.0,
+            "paramMin": -1.0,
+            "childMutationChance" : 0.7
+        }
+    }
+}

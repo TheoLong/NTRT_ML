@@ -1,0 +1,25 @@
+set(CMAKE_VERBOSE_MAKEFILE ON)
+link_directories(${LIB_DIR})
+
+link_libraries(
+		CPG_feedback
+                KinematicString
+                learningSpines
+                sensors
+                tgcreator             
+                core
+                util
+                terrain
+                Adapters
+                Configuration
+                AnnealEvolution
+                tgOpenGLSupport)
+
+add_library(SuperballModelContact 
+                SuperballModelContact.cpp
+            )
+                
+add_executable(AppSuperballContact
+    SuperballModelContact.cpp
+    AppSuperballContact.cpp
+) 
